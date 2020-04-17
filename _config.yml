@@ -1,6 +1,6 @@
 # Site settings
-title: EventosTI
-description: Agregador das maiores conferências de desenvolvimento e Tecnologia
+title: Conferências.Dev
+description: Agregador das maiores conferências de desenvolvimento do Brasil
 baseurl:  
 url: https://conferencias.dev 
 
@@ -12,7 +12,7 @@ twitter_username: conferenciasdev
 github_username:  conferencias-dev
 disqus_username: conferencias-dev
 facebook_username: conferencias.dev
-google_analytics: 
+google_analytics: UA-144523891-1
 
 # Build settings
 markdown: kramdown

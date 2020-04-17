@@ -1,5 +1,5 @@
 {
-  "name": "tech-eventos",
+  "name": "conferencias-dev",
   "version": "1.0.0",
   "description": "Agregador das maiores conferências de desenvolvimento do Brasil",
   "main": "gulpfile.js",
@@ -15,7 +15,7 @@
     "jekyll",
     "js"
   ],
-  "author": "marcialwushu",
+  "author": "Conferências.Dev",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",
@@ -35,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/marcialwushu/tech-eventos.git"
+    "url": "git://github.com/conferencias-dev/conferencias-dev.git"
   }
 }
