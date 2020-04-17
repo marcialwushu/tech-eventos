@@ -6,7 +6,7 @@ layout: default
     itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
 
-        {% capture now %}{{'now' | date: '%Y-%m-%d'}}{% endcapture %}
+        
 
         {% assign sorted_posts = site.posts | sort:"date_from" | reversed %}
         {% for post in sorted_posts %}
