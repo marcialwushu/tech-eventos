@@ -1,14 +1,46 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: EventosTI
+description: Agregador das maiores conferências de desenvolvimento e Tecnologia
+baseurl:  
+url: https://conferencias.dev 
+
+# User settings
+username: Conferências.Dev
+user_description: Agregador das maiores conferências de desenvolvimento do Brasil
+email: conferencias.dev@gmail.com
+twitter_username: conferenciasdev
+github_username:  conferencias-dev
+disqus_username: conferencias-dev
+facebook_username: conferencias.dev
+google_analytics: 
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Tags
+    url: /tags
+  - title: Sobre
+    url: /sobre
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+
+future: true
+
+# timezone
+timezone: America/Sao_Paulo
